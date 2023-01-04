@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { Ui3Module } from '../ui3/ui3.module';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -12,12 +13,12 @@ import { Ui3Module } from '../ui3/ui3.module';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, RouterModule,
   ],
   exports: [
+    Ui3Module,
     HeaderComponent,
     FooterComponent,
-    Ui3Module
   ]
 })
 export class CoreModule { }

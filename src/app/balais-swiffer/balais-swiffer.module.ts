@@ -4,6 +4,7 @@ import { PageListBalaisSwifferComponent } from './pages/page-list-balais-swiffer
 import { PageAddBalaisSwifferComponent } from './pages/page-add-balais-swiffer/page-add-balais-swiffer.component';
 import { PageEditBalaisSwifferComponent } from './pages/page-edit-balais-swiffer/page-edit-balais-swiffer.component';
 import { PageDeleteBalaisSwifferComponent } from './pages/page-delete-balais-swiffer/page-delete-balais-swiffer.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +16,8 @@ import { PageDeleteBalaisSwifferComponent } from './pages/page-delete-balais-swi
     PageDeleteBalaisSwifferComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule,
   ]
 })
 export class BalaisSwifferModule { }

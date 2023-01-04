@@ -1,12 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { GabaritsModule } from '../gabarits/gabarits.module';
+import { ListComponent } from './components/list/list.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ListComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports: [
+    GabaritsModule,
+    ListComponent,
   ]
 })
 export class SharedModule { }

@@ -14,3 +14,7 @@ header{
 nav{
   padding: 1em;
 }
+
+.nav-link:hover, .nav-link.active{
+  color: white;
+}

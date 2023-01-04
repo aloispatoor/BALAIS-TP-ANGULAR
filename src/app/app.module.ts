@@ -4,21 +4,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { Ui3Component } from './ui3/ui3.component';
+import { Ui3Component } from './ui3/components/ui3.component';
 import { CoreModule } from './core/core.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Ui3Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
     CoreModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

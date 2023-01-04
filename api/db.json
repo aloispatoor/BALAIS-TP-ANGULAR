@@ -1,0 +1,43 @@
+{
+  "balais-brosse": [
+    {
+      "name": "Spontex",
+      "description": "Brosse synthétique",
+      "price": 9,
+      "id":1
+    },
+    {
+      "name": "Impact",
+      "description": "Brosse à joints 100% soie",
+      "price": 5,
+      "id":2
+    },
+    {
+      "name": "Gerlon",
+      "description": "Brosse à décaper",
+      "price": 14,
+      "id":3
+    }
+  ],
+
+  "balais-swiffer": [
+    {
+      "name": "Kit Plumeau",
+      "description": "Plumeau XXL",
+      "price": 20,
+      "id":1
+    },
+    {
+      "name": "Kit Balai avec Lingettes",
+      "description": "Lingettes imprégnées",
+      "price": 25,
+      "id":2
+    },
+    {
+      "name": "Spray Wetjet",
+      "description": "Balai à spray",
+      "price": 50,
+      "id":3
+    }
+  ]
+}
